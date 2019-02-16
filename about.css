@@ -1,0 +1,62 @@
+.contents {
+	padding: 20px;
+}
+
+.about {
+	margin-left: 10px;
+	padding: 10px;
+	width: 30%;
+
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.about-description {
+	margin: 20px;
+	padding: 10px;
+
+	background-color: #e6ebed;
+	color: #003;
+
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.resume {
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.resume-academic {
+	margin: 20px;
+	padding: 10px;
+	background-color: #e6ebed;
+	color: #003;
+
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.resume-academic h2 {
+	line-height: 10px;
+}
+
+.resume-experience {
+	margin: 20px;
+	padding: 10px;
+	background-color: #e6ebed;
+	color: #003;
+
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.resume-experience h2 {
+	line-height: 10px;
+}

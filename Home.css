@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+*{
+	font-family: Tahoma, Arial, Sans-serif;
+	color:white;
+}
+
+a:link, a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a:selected{
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#header {
+	text-align: right;
+	background-color: black;
+	width: 100%;
+	padding-top: 10px;
+	margin-top:0px;
+	vertical-align: top;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.content {
+	text-align: center;
+	vertical-align: middle;
+}
+
+body {
+	background-image: url("img/chairbg.jpg");
+	background-color: black;
+	background-size: 100%;
+}

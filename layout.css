@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: existence;
+    src: url("Fonts/Existence-UnicaseLight.otf");
+}
+@font-face {
+    font-family: bromello;
+    src: url("Fonts/bromello.ttf");
+}
+
+body {
+	background-color: #003;
+	font-size: 20px;
+	background:  url("img/background.png")  no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;  
+	color: #e6ebed;
+	font-family: existence, sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: bromello;
+}
+
+.TitlePage{
+	margin-top: 5%;
+	margin-left: auto;
+}
+#homeTitle {
+	padding-top:0px;
+	margin-top:0px;
+}
+
+
+.header {
+	background-color: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)); 
+	color: #e6ebed;
+	width: 100%;
+	padding:  20px;
+	padding-left: 50px;
+	text-align: left;
+	margin: 0;
+	font-size: 70px;
+	font-family: bromello;
+
+ /*   -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;*/
+}
+
+
+.header a:visited{
+	color: #e6ebed;
+}
+
+.header-link {
+	font-size: 50px;
+}
+
+.header-menu li {
+	display: inline;
+	color: #003;
+	text-decoration: none;
+	padding-right: 50px;
+	font-family: bromello;
+
+}
+
+.header-menu {
+	display: inline-block;
+	text-align: right;
+	float: right;
+	clear: both;
+	vertical-align: middle;
+	padding-right: 50px;
+}
+
+.header-menu ul {
+	margin: 0;
+}
+
+.header a {
+	color: #e6ebed;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.header a:hover{
+	text-decoration: none;
+}
+
+.header a:active{
+	color:#00B4EB
+}
+
+
+
+.nav a.active{
+	color: #00B4EB;
+}
+
+.header-menu a.active{
+	color: #00B4EB;
+}
+
+
+
+a.header-right {
+	padding-left: 10px;
+}
+
+.nav {
+	position: fixed;
+	right: 0;
+	margin-right: -10px;
+	display: inline-block;
+}
+
+
+.nav li{
+	background-color: #003;
+	width: 100px;
+	margin: 10px;
+	list-style: none;
+}
+
+.nav a{
+	color: #e6ebed;	
+	text-decoration: none;	
+}
+
+
+.nav li a:active{
+	color: #00B4EB;;
+}
+

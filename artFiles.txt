@@ -1,0 +1,22 @@
+landscape, img/side.jpg, 3D model of Hogwarts Express
+landscape, img/hogwarts4.png, 3D model of Hogwarts Express
+landscape, img/env3.png, 3D model of a small town
+portrait, img/elephantCharacter.png, 3D model of an elephant character
+landscape, img/maya001.jpg, 3D model - head
+landscape, img/maya003.jpg, 3D model - hands
+landscape, img/maya004.jpg, 3D model - shoes
+landscape, img/maya005.jpg, 3D model - shoes
+landscape, img/quickbrownfox.jpg, Digital photography composite
+landscape, img/PennSpynLogo.jpg, logo for club at Penn
+portrait, img/lanterns.jpg, graphic design
+portrait, img/homecominghappyhour2.jpg, graphic design
+landscape, img/Joker.jpg, graphic design
+landscape, img/sasemarshmallows.jpg, promotional event banner
+landscape, img/ActivAsian2.jpg, promotional event banner
+landscape, img/ChinesYoyo2.jpg, promotional event banner
+landscape, img/artpainting.jpg, Acrylic painting
+landscape, img/artsketch.jpg, Pencil Sketch
+landscape, img/GraceHuang_Project2.gif, short animated gif
+portrait, img/hoodie.jpg, Fashion digital illustration
+portrait, img/fashion1.jpg, Fashion digital illustration
+portrait, img/fashion2.jpg, Fashion digital illustration

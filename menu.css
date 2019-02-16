@@ -1,0 +1,38 @@
+.menu {
+	/*color: #e6ebed;*/
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30%;
+}
+
+.menu-btn {
+	/*color: #e6ebed;*/
+	padding: 20px;
+	min-width: 100px;
+	/*border: 2px solid #e6ebed;*/
+}
+
+
+.menu-btn a {
+	color: #003;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+/*.menu-btn a:visited {
+	color: #e6ebed;
+}
+.menu-btn a:link:hover {
+    background-color: #e6ebed;
+}
+
+.menu-btn:hover a:visited{
+	color: #003;
+}*/
+
+.menu-btn:hover{
+	text-decoration:underline;
+}
+
+

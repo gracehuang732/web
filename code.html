@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code</title>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "loadImages.js"></script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='galleryCode.css' rel='stylesheet' type='text/css'>
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout2.css' rel='stylesheet' type='text/css'>
+
+<script>
+$(document).ready( function() {
+	loadCodeFiles("codeFiles.txt");
+	$("#content-menu li a").click(function() {
+		console.log($(this).attr('class'));
+		$(this).addClass("active");
+		$(".content-menu").children().not($("." +$(this).attr('class'))).removeClass("active");
+		$(this).removeClass("active");
+		$(".imageGallery").children().show();
+		$(".imageGallery").children().not($("." +$(this).attr('class'))).hide();
+
+	});
+});
+</script>
+
+
+</head>
+
+<body>
+	<div class = "header">
+    <ul>
+		<li><a href = "index.html">home</a></li>
+		<li> <a href = "code.html">code</a></li>
+		<li> <a href = "photography.html">art</a></li>
+		<li><a href = "me.html">me</a></li>
+    </ul>
+  </div>
+	<div class = "content-menu" id = "content-menu">
+		<ul>
+			<li> <a class = "programs" href="#">Programs</a></li>
+			<li> <a class = "websites" href="#">Websites</a></li>
+		</ul>
+	</div>
+	<div class = "imageGallery">
+    </div>
+</body>
+</html>

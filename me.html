@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Contact Me</title>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "loadImages.js"></script>
+<script src = "contact.php"></script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='gallery.css' rel='stylesheet' type='text/css'>
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout2.css' rel='stylesheet' type='text/css'>
+<link href='contact.css' rel='stylesheet' type='text/css'>
+<script>
+$(document).ready(function() {
+    $("[href]").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+    hover();
+});
+
+
+$(document).on('scroll', function() {
+    var scrollTop = $(window).scrollTop();
+	if (scrollTop > 40) {
+		document.getElementById('me').style.top = (0) + 'px';
+		document.getElementById('me').style.backgroundColor = "rgba(211,211,211,0.85)";
+    }
+    else {
+    	document.getElementById('me').style.top = (80) + 'px';
+    	document.getElementById('me').style.backgroundColor = "#d3d3";
+    }
+});
+
+</script>
+</head>
+
+<body>
+  <div class = "header">
+    <ul>
+		<li><a href = "index.html">home</a></li>
+		<li> <a href = "code.html">code</a></li>
+		<li> <a href = "Photography.html">art</a></li>
+		<li><a href = "me.html">me</a></li>
+    </ul>
+  </div>
+  <div class = "nav" id = "me">
+    <ul>
+      <li> <a class = "programs" href="#intro">intro</a></li>
+      <li> <a class = "videos" href="#interests">interests</a></li>
+      <li> <a class = "art" href="#resume">resume</a></li>
+      <li> <a class = "art" href="#contact">contact</a></li>
+    </ul>
+  </div>
+  	<div>
+  		<div class = "me_content" id = "intro">
+	  		<h1> hello! </h1>
+	  		<img class = "profpic about" src = "img/gracepic.jpg">
+	  		<p class = "about about-desc"> I'm Grace! I'm a junior studying Digital Media Design, which is a program under Computer Science at the University of Pennsylvania.
+	  		</p>
+	  	</div>
+	  	<div class = "me_content" id = "interests">
+			<h1> I love: </h1>
+			<div class = "box"> <figure class = "tint"><img src = "img/climbing.png"></figure>
+				<p class = "description"> Being off the ground </p></div>
+			<div class = "box"> <figure class = "tint"><img src = "img/exploring.png"></figure>
+				<p class = "description"> Going on adventures </p></div>
+			<div class = "box"> <figure class = "tint"><img src = "img/spynWorkshop.jpg"></figure>
+				<p class = "description"> Teaching Chinese-yoyo </p></div>
+			<div class = "box"> <figure class = "tint"><img src = "img/photography.png"></figure>
+				<p class = "description"> Taking pretty pictures</p></div>
+		</div>
+		<div class = "me_content">
+			<div class ="resume" id = "resume">
+				<h1> Resume </h1>
+				<div class = "resume-elem experience">
+					<h2> Experience: </h2>
+						<div class = "experience-elem">
+							<h3 class = "experience-title">UX Intern <br>
+							<b>OgilvyOne</b> Taipei, Taiwan </h3>
+							<p class = "date">2016</p>
+						</div>
+						<div class = "experience-elem">
+
+							<h3 class = "experience-title">Software Intern
+							<br> <b> CommVault Systems, Inc </b>  Tinton Falls, NJ</h3>
+							<p class = "date">2015, 2016</p>
+						</div>
+						<div class = "experience-elem">
+							<h3 class = "experience-title">Residential Teaching Assistant for the Computer Science Program <br>
+							<b>Engineering Summer Program at Penn</b>  Philadelphia, PA </h3>
+							<p class = "date">2015</p>
+						</div>
+
+				</div>
+				<div class ="resume-elem classes">
+					<h2> Relevant Courses: </h2>
+					<ul>
+						<li>CIS110: Intro to Java</li>
+						<li>CIS120: Programming Languages</li>
+						<li>CIS160: Discrete Math</li>
+						<li>CIS121: Data Structures and Algorithms</li>
+						<li>CIS240: Introduction to Computer Systems</li>
+						<li>CIS277: Introduction to Computer Graphics</li>
+						<li>CIS350: Software Design & Engineering</li>
+						<li>FNAR264: Art Design and Digital Culture</li>
+					</ul>
+				</div>
+				<div class = "resume-elem activities">
+					<h2>Activities: </h2>
+						<div class = "activities-elem">
+							<h3 class = "activities-name">CIS 121: Data Structures and Algorithms</h3>
+							<h4 class = "activities-title">Teaching Assistant (TA)</h4>
+							<p class = "date">2016</p>
+			<!-- 				<p class = "a-description">TA responsibilities include holding weekly office hours, grading assignments, answering Piazza questions, and helping create homework questions.</p> -->
+						</div>
+						<div class = "activities-elem">
+							<h3 class = "activities-name">Penn Spyn</h3>
+							<h4 class = "activities-title">Co-Founder, Co-President</h4>
+							<p class = "date">2015, 2016</p>
+<!-- 							<p class = "a-description">Created a club that focuses on teaching peers how to play the Chinese yoyo. We also performed at various events across campus, including Chinese New Year celebrations, Big Asian competition, aKDphi CoffeeHouse, and Night Market.</p> -->
+						</div>
+						<div class = "activities-elem">
+							<h3 class = "activities-name">Society of Asian Scientists and Engineers</h3>
+							<h4 class = "activities-title">External Chair</h4>
+							<p class = "date">2015, 2016</p>
+							<!-- <p class = "a-description">I am in charge of a new initiative to volunteer and give back to the community.</p> -->
+						</div>
+				</div>
+
+			</div>
+			<a href = "gracehuangresume.pdf"><h2>Resume PDF</h2></a>
+		</div>
+		<div class = "me_content" id = "contact">
+			<h1> how to reach me: </h1>
+<!-- 			<form method="post" action="contact.php">
+
+			    <label>Name</label>
+			    <input name="name" placeholder="Type Here">
+
+			    <label>Email</label>
+			    <input name="email" type="email" placeholder="Type Here">
+
+			    <label>Message</label>
+			    <textarea name="message" placeholder="Type Here"></textarea>
+
+			    <input id="submit" name="submit" type="submit" value="Submit">
+
+			</form> -->
+			<a href = "ghua@seas.upenn.edu"><p class = "contactInfo"> Email: ghua@seas.upenn.edu </p></a>
+			<a href="https://www.linkedin.com/in/gracehuang96"><p class = "contactInfo"> LinkedIn: gracehuang96 </p></a>
+		</div>
+	</div>
+</body>
+</html>

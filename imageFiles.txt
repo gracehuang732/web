@@ -1,0 +1,34 @@
+landscape, img/photography/personbikeedit.jpg, In Motion
+landscape, img/photography/horseShoeCrab.jpg, Brace the wave
+landscape, img/photography/berriesedit.jpg, After Rain
+landscape, img/photography/flower2edit.jpg, Flower
+landscape, img/photography/seabird.jpg, SeaBird
+landscape, img/photography/waves.jpg, Crashing Waves
+landscape, img/photography/phillylamp.jpg, Nightscape
+landscape, img/photography/andrewnight.jpg, In the dark
+landscape, img/photography/subway.jpg, Subway
+landscape, img/photography/bowling.JPG, Bowling
+landscape, img/photography/loomingTree.jpg, Looming Tree
+landscape, img/photography/DSC_7141.jpg, Serenity
+landscape, img/photography/DSC_7341.jpg, Star trails
+landscape, img/photography/DSC_7736.jpg, Battleship
+landscape, img/photography/DSC_6758.jpg, Deforestation
+landscape, img/photography/DSC_7623.jpg, Carousel
+landscape, img/photography/DSC_6166.jpg, Fly Away
+landscape, img/photography/DSC_8374.jpg, Misty Lake
+landscape, img/photography/DSC_7395.jpg, Ship watching
+landscape, img/photography/DSC_7206.jpg, bleachers
+landscape, img/photography/DSC_7882.jpg, Moving along
+landscape, img/photography/DSC_8220.jpg, Rush of Water
+landscape, img/photography/DSC_8123.jpg, Flight
+landscape, img/photography/DSC_8208.jpg, Path to the Unknown
+landscape, img/photography/DSC_8238.jpg, Yosemite
+portrait, img/photography/redcoatcrop.jpg, RedCoat
+portrait, img/photography/beefloweredit.jpg, Bees
+portrait, img/photography/duck2edit.jpg, Ducks
+portrait, img/photography/DSC_7655.jpg, Night Lights
+portrait, img/photography/DSC_6035.jpg, Canival
+portrait, img/photography/DSC_8448.jpg, Wooden Lion Head
+portrait, img/photography/DSC_7029.jpg, Vendor
+portrait, img/photography/DSC_7531.jpg, Arches
+portrait, img/photography/karinnacamera.jpg, Photography

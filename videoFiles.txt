@@ -1,0 +1,7 @@
+landscape, img/GoldAward/1.1.jpg, Girl Scout Gold Award: Series of 5 videos teaching Chinese, https://www.youtube.com/watch?v=dHA5Br1K_6I
+landscape, img/Videos/SciVis2014.jpg, Nervous system animation for Technology Student Association scientific visualization competition, https://www.youtube.com/watch?v=wWDSNugL3M0
+landscape, img/Videos/SciVis2013_2_2.jpg, Immune system animation for Technology Student Association scientific visualization competition, https://www.youtube.com/watch?v=fiEY2yrz878
+landscape, img/Videos/NHD2014_2_2.jpg, National Park System documentary for National History Day comeptition, https://www.youtube.com/watch?v=x7WVfhaZFrU
+landscape, img/Videos/NHD2013.jpg, Animation History documentary for National History Day competition, https://www.youtube.com/watch?v=MRIfcFIiHrg
+landscape, img/Videos/Gateway2_2.jpg, Verizon App challenge app idea explanatory video, https://www.youtube.com/watch?v=LFBFvjdmXEU
+landscape, img/Videos/Genes_2.jpg, Genes vs. Traits, https://www.youtube.com/watch?v=zWeXGcAYg_c

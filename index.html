@@ -1,0 +1,40 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout.css' rel='stylesheet' type='text/css'>
+<title>Welcome!</title>
+<script>
+$(document).ready(function() {
+    $("[href]").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+</script>
+</head>
+<body>
+  <div class = "header">
+    <a href = "index.html" class ="header-left header-link">home</a>
+    <div class = "header-menu">
+      <ul>
+        <li> <a class = "header-link" href = "me.html">me</a></li>
+      </ul>
+    </div>
+  </div>
+<div class = "TitlePage">
+	<table class = "menu">
+		<tr>
+			<td class = "menu-btn"><a href = "code.html">Code</a></td>
+			<td class = "menu-btn"><a href = "photography.html">Photography</a></td>
+			<td class = "menu-btn"><a href = "videos.html">Videos</a></td>
+			<td class = "menu-btn"><a href = "art.html">Art</a></td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

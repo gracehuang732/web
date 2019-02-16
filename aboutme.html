@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout.css' rel='stylesheet' type='text/css'>
+<link href='about.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<title>About Me</title>
+<script>
+$(document).ready(function() {
+    $("[href]").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+</script>
+</head>
+<body>
+	<div class = "header"> 
+		<a href = "index.html" class ="header-left">Grace Huang</a>
+		<div class = "header-menu">
+			<ul>
+				<li> <a href = "aboutme.html">About Me</a></li>
+				<li><a href = "contactme.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class = "nav"> 
+		<ul>
+			<li><a href = "code.html">Code</a></li>
+			<li><a href = "Photography.html">Photography</a></li>
+			<li><a href = "videos.html">Videos</a></li>
+			<li><a href = "art.html">Art</a></li>
+		</ul>
+	</div>
+
+	<div class = "contents">
+		<h1> A B O U T &nbsp; &nbsp; M E</h1>
+		<div class = "about">
+			<div class = "about-description">
+				<p>Hello! I'm a rising sophomore in University of Pennsylvania's Digital Media Design program interested in software and web development. 
+				I also enjoy taking pictures and video editing for fun. </p>
+			</div>
+		</div>
+		<div class = "resume">
+			<div class = "resume-academic">
+				<h2> Relevant courses taken: </h2>
+				<p>
+					CIS 110: Intro to Java <br>
+					CIS 120: Programming Languages II <br>
+					CIS 160: Discrete Math <br>
+					FNAR 264: Art, Design, and Digital Culture <br>
+				</p>
+			</div>
+			<div class = "resume-experience">
+				<h2>
+				Experience:
+				</h2>
+				<p>
+					Intern at CommVault Systems Inc. <br>
+					Residential Teaching Assistant for the computer science program in Engineering Summer Academy at Penn <br>
+					Intern at EPross Technology, Inc. <br>
+				</p>
+			</div>
+			<div class = "resume-pdf">
+				<a href = "Gracehuangresume.pdf">Resume PDF</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

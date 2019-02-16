@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Contact Me</title>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "loadImages.js"></script>
+<script src = "contact.php"></script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='gallery.css' rel='stylesheet' type='text/css'>
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout.css' rel='stylesheet' type='text/css'>
+<link href='contact.css' rel='stylesheet' type='text/css'>
+<script>
+$(document).ready(function() {
+    $("[href]").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+</script>
+</head>
+
+<body>
+	<div class = "header">
+		<a href = "index.html" class ="header-left">Grace Huang</a>
+		<div class = "header-menu">
+			<ul>
+				<li> <a href = "aboutme.html">About Me</a></li>
+				<li><a href = "contactme.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class = "nav">
+    	<ul>
+	      <li><a href = "code.html">Code</a></li>
+	      <li><a href = "photography.html">Photography</a></li>
+	      <li><a href = "videos.html">Videos</a></li>
+	      <li><a href = "art.html">Art</a></li>
+    	</ul>
+  </div>
+	<h1> C O N T A C T &nbsp; &nbsp; M E </h1>
+	<form method="post" action="contact.php">
+
+    <label>Name</label>
+    <input name="name" placeholder="Type Here">
+
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Type Here">
+
+    <label>Message</label>
+    <textarea name="message" placeholder="Type Here"></textarea>
+
+    <input id="submit" name="submit" type="submit" value="Submit">
+
+</form>
+</body>
+</html>

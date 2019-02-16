@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Photography</title>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "loadImages.js"></script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='gallery.css' rel='stylesheet' type='text/css'>
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout2.css' rel='stylesheet' type='text/css'>
+<script>
+$(document).ready(
+	loadFiles("imageFiles.txt")
+);
+</script>
+<script>
+$(document).ready(function() {
+    $("[href]").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+</script>
+</head>
+
+<body>
+  <div class = "header"> 
+    <ul>
+      <li><a href = "index.html">home</a></li>
+      <li> <a href = "code.html">projects</a></li>
+      <li><a href = "me.html">me</a></li>
+    </ul>
+  </div>
+  <div class = "nav"> 
+    <ul>
+      <li><a href = "code.html">Code</a></li>
+      <li><a href = "Photography.html">Art</a></li>
+    </ul>
+  </div>
+  <div class = "content-menu" id = "content-menu">
+    <ul>
+      <li> <a class = "programs" href="#">Photography</a></li>
+      <li> <a class = "videos" href="videos.html">Videos</a></li>
+      <li> <a class = "art" href="art.html">Traditional</a></li>
+    </ul>
+  </div>
+	<div class = "imageGallery">
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Code</title>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "storeMessage.js"></script>
+<script src = "saveMsg.js"></script>
+<script src = "writeTxt.php"></script>
+<script>
+//how to permanently store onto the website???
+$(document).ready( function() {
+	// saveMsg(); //get the writeTxt PHP
+	displayMessage();
+});
+</script>
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='gallery.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class = "prevMessages">
+</div>
+
+<form id = "typehere" name = "typehere" method = "GET">
+<input type = "text" name = "typemsg">
+<input type = "button" name = "submit" onClick = "storeMessage(this.form)">
+</form>
+
+</body>
+</html>
