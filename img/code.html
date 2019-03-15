@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Code</title>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "loadImages.js"></script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='gallery.css' rel='stylesheet' type='text/css'>
+<link href='menu.css' rel='stylesheet' type='text/css'>
+<link href='layout.css' rel='stylesheet' type='text/css'>
+<script>
+$(document).ready(
+	loadCodeFiles("codeFiles.txt")
+);
+$(".imageGallery").show();
+$(".content-menu li a").click(function() {
+	$(".imageGallery").children().not($("." + $(this).attr('class').split(' ')[1])).hide();
+});
+
+</script>
+
+
+</head>
+
+<body>
+	<div class = "header"> 
+		<a href = "index.html" class ="header-left">Grace Huang</a>
+		<div class = "header-menu">
+			<ul>
+				<li> <a href = "aboutme.html">About Me</a></li>
+				<li><a href = "contactme.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	<h1> C O D E </h1>
+	<div class = "content-menu">
+		<ul>
+			<li> <a class = "programs" href="#">Programs</a></li>
+			<li> <a class = "websites" href="#">Websites</a></li>
+		</ul>
+	</div>
+	<div class = "imageGallery">
+    </div>
+</body>
+</html>

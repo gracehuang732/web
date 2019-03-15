@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #003;
+	background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("img/photography/DSC_7395.jpg");  
+	color: #e6ebed;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.header {
+	background-color: #191947; 
+	color: #e6ebed;
+
+	width: 100%;
+	height: 30px;
+	padding:  20px;
+	padding-left: 50px;
+	text-align: left;
+	margin: 0;
+
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+
+.header a:visited{
+	color: #e6ebed;
+}
+
+.header-menu li {
+	display: inline;
+	color: #003;
+	text-decoration: none;
+	padding-right: 50px;
+}
+
+.header-menu {
+	display: inline-block;
+	text-align: right;
+	float: right;
+	clear: both;
+	vertical-align: middle;
+	padding-right: 50px;
+}
+
+.header-menu ul {
+	margin: 0;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.header a:hover{
+	text-decoration: none;
+}
+
+a.header-right {
+	padding-left: 10px;
+}
